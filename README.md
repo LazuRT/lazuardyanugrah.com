@@ -1,6 +1,7 @@
 # lazuardyanugrah.com
 
-This is the personal website of Lazuardy Anugrah. This website serve purpose to show my profile, photo, projects, and experience as software engineer.
+This is the personal website of Lazuardy Anugrah.
+This website serve purpose to show my profile, photos, projects, and experience as software engineer.
 
 ## Links
 
