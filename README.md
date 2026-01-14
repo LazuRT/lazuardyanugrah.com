@@ -25,9 +25,14 @@ This website serve purpose to show my profile, photos, projects, and experience 
 
 ## Preview
 
-Home
+Home:
+
 ![Home](images/home.jpg)
-About Me
-![Home](images/about-me.jpg)
-Contact
-![Home](images/contact.jpg)
+
+About Me:
+
+![About Me](images/about-me.jpg)
+
+Contact:
+
+![Contact](images/contact.jpg)
