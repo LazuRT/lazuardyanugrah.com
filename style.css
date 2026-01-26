@@ -5,3 +5,57 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.current {
+  background: #000;
+  padding: 8px 12px;
+  border-radius: 24px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .navbar-menu-list {
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+  }
+
+  .navbar-menu-icon-list {
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+
+    i {
+      padding: 0.5rem;
+      border: 1px solid #d3d3d3;
+      border-radius: 50%;
+    }
+  }
+}
