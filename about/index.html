@@ -4,37 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
-
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
+    <link rel="stylesheet" href="/style.css" />
 
     <title>About | Lazuardy Anugrah Personal Website</title>
   </head>
   <body>
-    <nav>
-      <div>
+    <nav class="navbar container">
+      <div class="navbar-logo">
         <a href="/">
-          <img src="images/logo2.png" alt="Lazuardy Anugrah" width="50" />
+          <img src="/images/logo2.png" alt="Lazuardy Anugrah" width="50" />
         </a>
-        Lazuardy Anugrah
+        <h1>Lazuardy Anugrah</h1>
       </div>
 
-      <div>
-        <ul>
+      <div class="navbar-menu">
+        <ul class="navbar-menu-list">
           <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a href="/about" class="current">About</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
 
-      <div>
-        <ul>
+      <div class="navbar-menu-icon">
+        <ul class="navbar-menu-icon-list">
           <li><i class="ri-search-line"></i></li>
           <li><i class="ri-rss-line"></i></li>
           <li><i class="ri-sun-line"></i></li>
@@ -42,8 +46,8 @@
       </div>
     </nav>
 
-    <section>
-      <h1>About Me</h1>
+    <section class="about-me-section container">
+      <h1 class="page-header">About Me</h1>
       <img src="/images/about-photo.jpg" alt="Lazuardy Anugrah" width="640px" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem
@@ -55,8 +59,8 @@
 
     <!-- My Tech Stack -->
 
-    <section>
-      <h2>My Tech Stack</h2>
+    <section class="about-tech-section container">
+      <h2 class="section-header">My Tech Stack</h2>
 
       <i class="devicon-html5-plain-wordmark colored"></i>
       <i class="devicon-css3-plain-wordmark colored"></i>
@@ -70,54 +74,57 @@
 
     <!-- Work Experience -->
 
-    <section>
-      <h2>Work Experience</h2>
+    <section class="work-section container">
+      <h2 class="section-header">Work Experience</h2>
 
-      <div>
+      <div class="work-list">
         <div class="work-item">
-          <div>
+          <div class="work-period">
             <p>Oct 2016- Des 2016</p>
-            <div>
-              <h3>Operational Intern, Sejasa.com</h3>
-              <ul>
-                <li>Maintain platform operations</li>
-                <li>Assist customer and providers on using the platform</li>
-              </ul>
-            </div>
+          </div>
+
+          <div class="work-description">
+            <h3>Operational Intern, Sejasa.com</h3>
+            <ul>
+              <li>Maintain platform operations</li>
+              <li>Assist customer and providers on using the platform</li>
+            </ul>
           </div>
         </div>
+
         <div class="work-item">
-          <div>
+          <div class="work-period">
             <p>Sep 2018- Feb 2020</p>
-            <div>
-              <h3>Operational Staff & Translator, Ponimu</h3>
-              <ul>
-                <li>Running day to day website operations</li>
-                <li>
-                  Maintain communication with Japanese partners for product
-                  delivery
-                </li>
-                <li>Translate and create anime subtitle</li>
-              </ul>
-            </div>
+          </div>
+          <div class="work-description">
+            <h3>Operational Staff & Translator, Ponimu</h3>
+            <ul>
+              <li>Running day to day website operations</li>
+              <li>
+                Maintain communication with Japanese partners for product
+                delivery
+              </li>
+              <li>Translate and create anime subtitle</li>
+            </ul>
           </div>
         </div>
+
         <div class="work-item">
-          <div>
+          <div class="work-period">
             <p>Oct 2022- Present</p>
-            <div>
-              <h3>Operational Intern, Sejasa.com</h3>
-              <ul>
-                <li>
-                  Translate required and supporting works material from Japanese
-                  to Indonesian
-                </li>
-                <li>
-                  Translate Japanese light novel and comic storyboard to
-                  Indonesian
-                </li>
-              </ul>
-            </div>
+          </div>
+          <div class="work-description">
+            <h3>Translator, Vertwo</h3>
+            <ul>
+              <li>
+                Translate required and supporting works material from Japanese
+                to Indonesian
+              </li>
+              <li>
+                Translate Japanese light novel and comic storyboard to
+                Indonesian
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -186,33 +193,35 @@
 
     <!-- footer -->
     <footer>
-      <div>
-        <a href="/">
-          <img src="images/logo2.png" alt="Lazuardy Anugrah" width="50" />
-        </a>
-        Lazuardy Anugrah
-      </div>
+      <section class="footer-section container">
+        <div class="footer-logo">
+          <a href="/">
+            <img src="/images/logo2.png" alt="Lazuardy Anugrah" width="50" />
+          </a>
+          <h1>Lazuardy Anugrah</h1>
+        </div>
 
-      <div>
-        <div>
-          <a href="#">Terms </a>| <a href="#">Privacy</a>
-          <p>&copy; 2026 | All rights reserved</p>
+        <div class="footer-links">
+          <div class="footer-left">
+            <a href="#">Terms </a>| <a href="#">Privacy</a>
+            <p>&copy; 2026 | All rights reserved</p>
+          </div>
+          <div class="footer-right">
+            <a href="mailto:lazuardyanugrah@gmail.com">
+              <i class="ri-mail-line"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lazuardy-anugrah-8a83083a1/"
+              target="_blank"
+            >
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://github.com/LazuRT/" target="_blank">
+              <i class="ri-github-fill"></i>
+            </a>
+          </div>
         </div>
-        <div>
-          <a href="mailto:lazuardyanugrah@gmail.com">
-            <i class="ri-mail-line"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/lazuardy-anugrah-8a83083a1/"
-            target="_blank"
-          >
-            <i class="ri-linkedin-box-fill"></i>
-          </a>
-          <a href="https://github.com/LazuRT/" target="_blank">
-            <i class="ri-github-fill"></i>
-          </a>
-        </div>
-      </div>
+      </section>
     </footer>
   </body>
 </html>
