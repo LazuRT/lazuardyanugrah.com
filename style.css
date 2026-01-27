@@ -12,6 +12,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000000bf;
 }
 
 ul {
@@ -124,11 +125,11 @@ ul {
 }
 
 .about-section {
-  margin: 10rem auto 3rem;
+  margin: 3rem auto;
 }
 
 .tech-section {
-  margin: 5rem auto 3rem;
+  margin: 3rem auto;
 
   ul {
     display: flex;
@@ -145,6 +146,8 @@ ul {
 }
 
 .projects-section {
+  margin: 3rem auto;
+
   .projects-section-header {
     display: flex;
     justify-content: space-between;
@@ -183,6 +186,48 @@ ul {
 
     i {
       font-size: 2rem;
+    }
+  }
+}
+
+footer {
+  border-top: 1px solid #d3d3d3;
+  margin: 3rem auto 0;
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: space-between;
+
+      .footer-left {
+        p {
+          font-size: 12px;
+          margin: 8px 0;
+        }
+      }
+
+      .footer-right {
+        display: flex;
+
+        a {
+          padding: 7px;
+          font-size: 2rem;
+        }
+      }
     }
   }
 }
