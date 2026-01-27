@@ -63,13 +63,12 @@ ul {
     font-weight: 600;
 
     a {
-      /* background: #b8b7b7; */
       padding: 8px 12px;
       border-radius: 24px;
       color: #000;
 
       &:hover {
-        background-color: #eaeaeac3;
+        background-color: hsla(0, 0%, 91.8%, 0.77);
       }
 
       &.current {
@@ -77,7 +76,7 @@ ul {
         color: white;
 
         &:hover {
-          background-color: #000000a3;
+          background-color: hsla(0, 0%, 0%, 0.64);
         }
       }
     }
@@ -305,7 +304,7 @@ footer {
   }
 }
 
-/* TODO utility class for work and education item */
+/* TODO semantic class for work and education item */
 
 .work-section {
   margin-top: 3rem;
