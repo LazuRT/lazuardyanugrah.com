@@ -237,6 +237,8 @@ footer {
   }
 }
 
+/* About Page */
+
 .about-me-section {
   margin-top: 146px;
   display: flex;
@@ -253,6 +255,8 @@ footer {
   }
 }
 
+/* TODO utility class for work and education item */
+
 .work-section {
   margin-top: 3rem;
 
@@ -265,7 +269,7 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      /* flex-wrap: wrap; */
+      flex-wrap: wrap;
 
       .work-period {
         font-weight: 700;
@@ -283,6 +287,35 @@ footer {
         ul {
           list-style-type: disc;
         }
+      }
+    }
+  }
+}
+
+.education-section {
+  margin-top: 3rem;
+
+  .education-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .education-period {
+      font-weight: 700;
+      flex: 1;
+    }
+
+    .education-description {
+      flex: 1;
+
+      h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style-type: disc;
       }
     }
   }
