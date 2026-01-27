@@ -26,7 +26,7 @@ ul {
 }
 
 .current {
-  background: #000;
+  background-color: #000;
   padding: 8px 12px;
   border-radius: 24px;
   color: white;
@@ -61,6 +61,26 @@ ul {
     display: flex;
     gap: 1rem;
     font-weight: 600;
+
+    a {
+      /* background: #b8b7b7; */
+      padding: 8px 12px;
+      border-radius: 24px;
+      color: #000;
+
+      &:hover {
+        background-color: #eaeaeac3;
+      }
+
+      &.current {
+        background-color: #000;
+        color: white;
+
+        &:hover {
+          background-color: #000000a3;
+        }
+      }
+    }
   }
 
   .navbar-menu-icon-list {
@@ -72,6 +92,11 @@ ul {
       padding: 0.5rem;
       border: 1px solid #d3d3d3;
       border-radius: 50%;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
     }
   }
 }
@@ -105,25 +130,36 @@ ul {
 
     .hero-inner-links {
       .button-dark {
-        background: #000;
+        background-color: #000;
         padding: 8px 8px;
         color: #fff;
         border-radius: 5px;
+
+        &:hover {
+          background-color: #000000c7;
+        }
       }
 
       .button-white {
-        background: #fff;
+        background-color: #fff;
         padding: 8px 8px;
         color: #000;
         border: 1px solid;
         border-radius: 5px;
+
+        &:hover {
+          background-color: #dddddd;
+        }
       }
     }
 
     .hero-outer-links {
       a {
         padding: 5px;
-        color: #000;
+
+        &:hover {
+          color: #00000083;
+        }
       }
     }
   }
@@ -194,6 +230,10 @@ ul {
     i {
       font-size: 2rem;
     }
+
+    &:hover {
+      background-color: #eaeaeac3;
+    }
   }
 }
 
@@ -221,6 +261,9 @@ footer {
       justify-content: space-between;
 
       .footer-left {
+        a:hover {
+          color: #00000083;
+        }
         p {
           font-size: 12px;
           margin: 8px 0;
@@ -233,6 +276,11 @@ footer {
         a {
           padding: 7px;
           font-size: 2rem;
+
+          &:hover {
+            background-color: #eaeaeac3;
+            border-radius: 50%;
+          }
         }
       }
     }
@@ -373,7 +421,7 @@ footer {
 
   button {
     width: 100%;
-    background: #000;
+    background-color: #000;
     color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -382,7 +430,7 @@ footer {
     font-size: 16px;
 
     &:hover {
-      background: #000000cd;
+      background-color: #000000cd;
     }
   }
 }
