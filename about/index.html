@@ -16,40 +16,56 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
-    <link rel="stylesheet" href="/style.css" />
-
+    <!-- <link rel="stylesheet" href="/style.css" /> -->
     <title>About | Lazuardy Anugrah Personal Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav class="navbar container">
-      <div class="navbar-logo">
+    <nav class="max-w-3xl flex items-center justify-between py-2 px-4 mx-auto">
+      <div class="flex items-center">
         <a href="/">
-          <img src="/images/logo2.png" alt="Lazuardy Anugrah" width="50" />
+          <img src="/images/logo.png" alt="Lazuardy Anugrah" width="30" />
         </a>
-        <h1>Lazuardy Anugrah</h1>
+        <a href="/">
+          <h1 class="text-2xl font-bold ml-2">Lazuardy Anugrah</h1>
+        </a>
       </div>
 
       <div class="navbar-menu">
-        <ul class="navbar-menu-list">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about" class="current">About</a></li>
-          <li><a href="/contact">Contact</a></li>
+        <ul class="flex gap-6 font-semibold">
+          <li>
+            <a href="/" class="">Home</a>
+          </li>
+          <li>
+            <a href="/about" class="py-2 px-3 bg-black text-white rounded-3xl"
+              >About</a
+            >
+          </li>
+          <li><a href="/contact" class="navbar-menu-item">Contact</a></li>
         </ul>
       </div>
 
       <div class="navbar-menu-icon">
-        <ul class="navbar-menu-icon-list">
-          <li><i class="ri-search-line"></i></li>
-          <li><i class="ri-rss-line"></i></li>
-          <li><i class="ri-sun-line"></i></li>
+        <ul class="flex gap-4 font-semibold">
+          <li class="py-1 px-2 border border-solid rounded-full">
+            <i class="ri-search-line"></i>
+          </li>
+          <li class="py-1 px-2 border border-solid rounded-full">
+            <i class="ri-rss-line"></i>
+          </li>
+          <li class="py-1 px-2 border border-solid rounded-full">
+            <i class="ri-sun-line"></i>
+          </li>
         </ul>
       </div>
     </nav>
 
-    <section class="about-me-section container">
-      <h1 class="page-header">About Me</h1>
-      <img src="/images/about-photo.jpg" alt="Lazuardy Anugrah" width="640px" />
-      <p>
+    <section
+      class="max-w-3xl flex flex-col items-center mx-auto mt-[146px] px-4"
+    >
+      <h1 class="font-bold text-4xl">About Me</h1>
+      <img src="/images/about-photo.jpg" alt="Lazuardy Anugrah" class="mt-10" />
+      <p class="mt-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem
         laboriosam eos assumenda, id eligendi alias doloremque aspernatur
         cupiditate est expedita distinctio exercitationem, ut recusandae
@@ -59,170 +75,270 @@
 
     <!-- My Tech Stack -->
 
-    <section class="about-tech-section container">
-      <h2 class="section-header">My Tech Stack</h2>
-
-      <i class="devicon-html5-plain-wordmark colored"></i>
-      <i class="devicon-css3-plain-wordmark colored"></i>
-      <i class="devicon-javascript-plain colored"></i>
-      <i class="devicon-react-original-wordmark colored"></i>
-      <i class="devicon-github-original-wordmark colored"></i>
-      <i class="devicon-vscode-plain-wordmark colored"></i>
-      <i class="devicon-vuejs-plain-wordmark colored"></i>
-      <i class="devicon-nextjs-plain colored"></i>
+    <section class="max-w-3xl mt-12 mx-auto px-4">
+      <h2 class="text-xl font-semibold">My Tech Stack</h2>
+      <div class="mt-4">
+        <i class="devicon-html5-plain-wordmark colored text-[50px]"></i>
+        <i class="devicon-css3-plain-wordmark colored text-[50px]"></i>
+        <i class="devicon-javascript-plain colored text-[50px]"></i>
+        <i class="devicon-react-original-wordmark colored text-[50px]"></i>
+        <i class="devicon-github-original-wordmark colored text-[50px]"></i>
+        <i class="devicon-vscode-plain-wordmark colored text-[50px]"></i>
+        <i class="devicon-vuejs-plain-wordmark colored text-[50px]"></i>
+        <i class="devicon-nextjs-plain colored text-[50px]"></i>
+      </div>
     </section>
 
     <!-- Work Experience -->
 
-    <section class="work-section container">
-      <h2 class="section-header">Work Experience</h2>
+    <section class="max-w-3xl mt-12 mx-auto px-4">
+      <h2 class="text-xl font-semibold">Work Experience</h2>
 
-      <div class="work-list">
-        <div class="work-item">
-          <div class="work-period">
-            <p>Oct 2016- Des 2016</p>
+      <div class="mt-6 flex flex-col gap-2">
+        <div class="border border-gray-300 p-6 rounded-xl">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center">
+              <img
+                src="https://media.licdn.com/dms/image/v2/C560BAQEdIQesfwr_mA/company-logo_200_200/company-logo_200_200/0/1630653814276/sejasacom_logo?e=2147483647&v=beta&t=zQdeXQ-Lum6NpcCBbBI91UFCcAcgam-3y63uaslWUYA"
+                alt=""
+                class="h-[60px] mr-2"
+              />
+              <div>
+                <h3 class="font-medium">Operational Intern</h3>
+                <p class="text-gray-500">Sejasa.com · Internship</p>
+              </div>
+            </div>
+            <p class="text-gray-800">Oct 2016 - Dec 2016</p>
           </div>
-
-          <div class="work-description">
-            <h3>Operational Intern, Sejasa.com</h3>
-            <ul>
-              <li>Maintain platform operations</li>
-              <li>Assist customer and providers on using the platform</li>
-            </ul>
-          </div>
+          <ul class="list-disc px-4 mt-6 text-gray-500">
+            <li>Maintain platform operations.</li>
+            <li>Assist customer and providers on using the platform.</li>
+          </ul>
         </div>
 
-        <div class="work-item">
-          <div class="work-period">
-            <p>Sep 2018- Feb 2020</p>
+        <div class="border border-gray-300 p-6 rounded-xl">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx1FlJmqENkhw_KvUy_0VwmVwp9ve9CatBdw&s"
+                alt=""
+                class="h-[60px] mr-2"
+              />
+              <div>
+                <h3 class="font-medium">Operational Staff & Translator</h3>
+                <p class="text-gray-500">Ponimu · Full-time</p>
+              </div>
+            </div>
+            <p class="text-gray-800">Sep 2018 - Feb 2020</p>
           </div>
-          <div class="work-description">
-            <h3>Operational Staff & Translator, Ponimu</h3>
-            <ul>
-              <li>Running day to day website operations</li>
-              <li>
-                Maintain communication with Japanese partners for product
-                delivery
-              </li>
-              <li>Translate and create anime subtitle</li>
-            </ul>
-          </div>
+          <ul class="list-disc px-4 mt-6 text-gray-500">
+            <li>Running day to day website operations.</li>
+            <li>
+              Maintain communication with Japanese partners for product
+              delivery.
+            </li>
+            <li>Translate and create anime subtitle.</li>
+          </ul>
         </div>
 
-        <div class="work-item">
-          <div class="work-period">
-            <p>Oct 2022- Present</p>
+        <div class="border border-gray-300 p-6 rounded-xl">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center">
+              <img
+                src="https://media.licdn.com/dms/image/v2/D560BAQG-4ohQOfM0Ew/company-logo_100_100/B56Zby5exEGsAQ-/0/1747831878340?e=1771459200&v=beta&t=xL81tHdMUPWoayyn2CnSnRLNOeAS6dPFIls0vjshbEs"
+                alt=""
+                class="h-[60px] mr-2"
+              />
+              <div>
+                <h3 class="font-medium">Translator</h3>
+                <p class="text-gray-500">Vertwo · Full-time</p>
+              </div>
+            </div>
+            <p class="text-gray-800">Oct 2022 - Present</p>
           </div>
-          <div class="work-description">
-            <h3>Translator, Vertwo</h3>
-            <ul>
-              <li>
-                Translate required and supporting works material from Japanese
-                to Indonesian
-              </li>
-              <li>
-                Translate Japanese light novel and comic storyboard to
-                Indonesian
-              </li>
-            </ul>
-          </div>
+          <ul class="list-disc px-4 mt-6 text-gray-500">
+            <li>
+              Translate required and supporting works material from Japanese to
+              Indonesian.
+            </li>
+            <li>
+              Translate Japanese light novel and comic storyboard to Indonesian.
+            </li>
+          </ul>
         </div>
       </div>
     </section>
 
     <!-- Education -->
 
-    <section class="education-section container">
-      <h2 class="section-header">Education</h2>
-      <div class="education-item">
-        <div class="education-period">
-          <p>2012 - 2017</p>
-        </div>
-        <div class="education-description">
-          <h3>Binus University</h3>
-          <p>Industrial Engineering & Information System</p>
+    <section class="max-w-3xl mt-12 mx-auto px-4">
+      <h2 class="text-xl font-semibold">Education</h2>
+
+      <div class="border border-gray-300 p-6 rounded-xl mt-4">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/id/a/a2/Logo_Binus_University.png"
+              alt=""
+              class="h-[60px] mr-2"
+            />
+            <div>
+              <h3 class="font-medium">Binus University</h3>
+              <p class="text-gray-800">
+                Industrial Engineering & Information System
+              </p>
+              <p class="text-gray-500">2012 - 2017</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Project -->
 
-    <section class="projects-section container">
+    <section class="max-w-3xl px-4 mt-12 mx-auto">
       <!-- project section header -->
-      <div class="projects-section-header">
-        <h2 class="section-header">Selected Project</h2>
-        <a href="#">All Projects</a>
+      <div class="flex justify-between mb-4">
+        <h2 class="text-xl font-semibold">Selected Project</h2>
+        <a href="/project/index.html" class="text-gray-700">All Projects</a>
       </div>
 
       <!-- project -->
-      <div class="project-item">
-        <div class="project-item-description">
-          <h4 class="project-item-description-heading">Project 1</h4>
-          <p class="project-item-description-text">
+
+      <a
+        href="https://game-blog-seven.vercel.app/"
+        target="_blank"
+        class="flex flex-row p-4 my-3 items-center justify-between border border-solid border-gray-300 rounded-lg"
+      >
+        <div class="grow-7">
+          <h4 class="font-semibold">Game Blog</h4>
+          <p class="mt-2 text-sm">Simple blog website about gaming news</p>
+          <ul class="mt-3 flex flex-wrap gap-2">
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              Personal Project
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              Front-end
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              JavaScript
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">React</li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">Next.js</li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              Tailwind CSS
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">GraphQL</li>
+          </ul>
+        </div>
+        <i class="ri-arrow-right-line text-2xl grow-3 text-right"></i>
+      </a>
+
+      <a
+        href="/"
+        class="flex flex-row p-4 my-3 items-center justify-between border border-solid border-gray-300 rounded-lg"
+      >
+        <div class="flex-7">
+          <h4 class="font-semibold">Project 2</h4>
+          <p class="mt-2 text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
             ipsa hic cum repudiandae deserunt error pariatur dicta sed
             voluptatum architecto!
           </p>
-          <ul>
-            <li>Personal Project</li>
-            <li>FULLSTACK</li>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Tailwind CSS</li>
-            <li>PostgreSQL</li>
-            <li>Figma</li>
+          <ul class="mt-3 flex flex-wrap gap-2">
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              Personal Project
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              FULLSTACK
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              TypeScript
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">React</li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              Tailwind CSS
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              PostgreSQL
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">Figma</li>
           </ul>
         </div>
-        <i class="ri-arrow-right-line"></i>
-      </div>
-      <div class="project-item">
-        <div class="project-item-description">
-          <h4 class="project-item-description-heading">Project 2</h4>
-          <p class="project-item-description-text">
+        <i class="ri-arrow-right-line text-2xl flex-3 text-right"></i>
+      </a>
+
+      <a
+        href="/"
+        class="flex flex-row p-4 my-3 items-center justify-between border border-solid border-gray-300 rounded-lg"
+      >
+        <div class="flex-8">
+          <h4 class="font-semibold">Project 3</h4>
+          <p class="mt-2 text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
             ipsa hic cum repudiandae deserunt error pariatur dicta sed
             voluptatum architecto!
           </p>
-          <ul>
-            <li>Personal Project</li>
-            <li>FULLSTACK</li>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Tailwind CSS</li>
-            <li>PostgreSQL</li>
-            <li>Figma</li>
+          <ul class="mt-3 flex flex-wrap gap-2">
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              Personal Project
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              FULLSTACK
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              TypeScript
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">React</li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              Tailwind CSS
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">
+              PostgreSQL
+            </li>
+            <li class="p-[3px] bg-gray-200 text-[10px] rounded-lg">Figma</li>
           </ul>
         </div>
-        <i class="ri-arrow-right-line"></i>
-      </div>
+        <i class="ri-arrow-right-line text-2xl flex-2 text-right"></i>
+      </a>
     </section>
 
     <!-- footer -->
-    <footer>
-      <section class="footer-section container">
-        <div class="footer-logo">
+    <footer class="border-t mt-12">
+      <section class="max-w-3xl p-2 mx-auto flex flex-col gap-4">
+        <div class="flex items-center justify-start">
           <a href="/">
-            <img src="/images/logo2.png" alt="Lazuardy Anugrah" width="50" />
+            <img src="/images/logo.png" alt="Lazuardy Anugrah" width="30" />
           </a>
-          <h1>Lazuardy Anugrah</h1>
+          <a href="/">
+            <h1 class="text-2xl font-bold ml-2">Lazuardy Anugrah</h1>
+          </a>
         </div>
 
-        <div class="footer-links">
+        <div class="flex justify-between">
           <div class="footer-left">
-            <a href="#">Terms </a>| <a href="#">Privacy</a>
-            <p>&copy; 2026 | All rights reserved</p>
+            <p>
+              <a href="#" class="text-gray-700">Terms </a>|
+              <a href="#" class="text-gray-700">Privacy</a>
+            </p>
+            <p class="text-sm">&copy; 2026 | All rights reserved</p>
           </div>
-          <div class="footer-right">
-            <a href="mailto:lazuardyanugrah@gmail.com">
+          <div class="flex items-center">
+            <a href="/contact/" target="_blank" class="p-2 text-2xl">
               <i class="ri-mail-line"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/lazuardy-anugrah-8a83083a1/"
               target="_blank"
+              class="p-2 text-2xl"
             >
               <i class="ri-linkedin-box-fill"></i>
             </a>
-            <a href="https://github.com/LazuRT/" target="_blank">
+            <a
+              href="https://github.com/LazuRT/"
+              target="_blank"
+              class="p-2 text-2xl"
+            >
               <i class="ri-github-fill"></i>
             </a>
           </div>
