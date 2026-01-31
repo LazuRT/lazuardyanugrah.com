@@ -6,12 +6,13 @@ This website serve purpose to show my profile, photos, projects, and experience 
 ## Links
 
 - Access it here: [lazuardyanugrah.com](https://lazuardyanugrah.com)
+  - Backup link: <https://lazuardyanugrah.netlify.app/>
 - Design on Figma: <https://www.figma.com/design/7FeCAw6vk6IgMVO3MWCoqH/>
 - Github : <https://github.com/LazuRT/lazuardyanugrah.com>
 
 ## Social Media
 
-- [Telegram](https://t.me/mhaidarhanif)
+- [Telegram](https://t.me/lazurite04)
 - [LinkedIn](https://linkedin.com/in/lazuardy-anugrah-8a83083a1)
 - [GitHub](https://github.com/LazuRT)
 - [Facebook](https://www.facebook.com/lazuardy.anugrah/)
