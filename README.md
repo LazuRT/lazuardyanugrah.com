@@ -23,17 +23,22 @@ This website serve purpose to show my profile, photos, projects, and experience 
 - Home
 - About
 - Contact
+- Projects
 
 ## Preview
 
 Home:
 
-![Home](images/home.jpg)
+![Home](/images/screenshots/ss-home.jpg)
 
 About Me:
 
-![About Me](images/about-me.jpg)
+![About Me](/images/screenshots/ss-about.jpg)
 
 Contact:
 
-![Contact](images/contact.jpg)
+![Contact](/images/screenshots/ss-contact.jpg)
+
+Projects:
+
+![Projects](/images/screenshots/ss-projects.jpg)
